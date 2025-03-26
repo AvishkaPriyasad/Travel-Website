@@ -1,10 +1,13 @@
 import React from 'react'
+import TopBanner from '../Components/TopBanner'
+import GalleryComp from '../Components/GalleryComp'
 
 const Gallery = () => {
   return (
-    <div>
-      Hey I am Gallery page
-    </div>
+    <>
+      <TopBanner text='Gallery'/>
+      <GalleryComp/>
+    </>
   )
 }
 
