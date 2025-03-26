@@ -22,8 +22,8 @@ Ensure you have Node.js and npm installed on your system.
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/travelmate.git
-   cd travelmate
+   git clone https://github.com/AvishkaPriyasad/Travel-Website.git
+   cd travel-website
    ```
 2. Install dependencies:
    ```sh
@@ -48,7 +48,7 @@ npm run preview
 
 ## Folder Structure
 ```
-travelmate/
+travel/
 │── src/
 │   ├── components/   # Reusable components
 │   ├── pages/        # Application pages
@@ -61,9 +61,6 @@ travelmate/
 │── vite.config.js    # Vite configuration
 │── README.md         # Documentation
 ```
-
-## Contributing
-Contributions are welcome! Feel free to fork the repository and submit a pull request.
 
 ## License
 This project is licensed under the MIT License.
