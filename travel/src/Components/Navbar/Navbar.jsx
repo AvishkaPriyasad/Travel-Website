@@ -13,17 +13,17 @@ const Navbar = () => {
             <div className='bg-black opacity-75 transparent/75 px-4 fixed w-full z-50 top-0 py-2'>
                 <div className='max-w-7xl mx-auto py-2 px-5 flex bg-transparent justify-between items-center'>
                     <Link to='/'>
-                    <h1 className='text-2xl text-red-500 font-bold'>Travel<span className='text-white font-bold'>Mate</span></h1>
+                    <h1 className='text-2xl text-green-600 font-bold'>Travel<span className='text-white font-bold'>Mate</span></h1>
                     </Link>
                     <div className='flex items-center gap-5'>
                         <nav className='hidden md:flex gap-7'>
                             <ul className='flex items-center font-semibold text-white text-xl gap-7'>
-                                <Link to='/tours'><li>Tours</li></Link> 
-                                <Link to='/about'><li>About Us</li></Link>
-                                <Link to='/gallery'><li>Gallery</li></Link>
-                                <Link to='/contact'><li>Contact</li></Link>
+                                <Link to='/tours'><li><div className='hover:text-green-600'>Tours</div></li></Link> 
+                                <Link to='/about'><li><div className='hover:text-green-600'>About Us</div></li></Link>
+                                <Link to='/gallery'><li><div className='hover:text-green-600'>Gallery</div></li></Link>
+                                <Link to='/contact'><li><div className='hover:text-green-600'>Contact</div></li></Link>
                             </ul>
-                            <button className='bg-red-500 hover:bg-red-600 text-white px-4 py-1 rounded-md font-semibold'>Sign In</button>
+                            <button className='bg-green-600 hover:bg-green-700 text-white px-4 py-1 rounded-md font-semibold'>Sign In</button>
                         </nav>
                         <HiMenuAlt1 
                         onClick={toggleMenu} 

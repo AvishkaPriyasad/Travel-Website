@@ -107,7 +107,7 @@ const FeatureDestination = () => {
           <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl text-center mb-3 font-serif">
             Featured Destinations
           </h2>
-          <hr className="text-red-500 w-[200px] bg-red-500 mx-auto h-1 mb-10" />
+          <hr className="text-green-600 w-[200px] bg-green-600 mx-auto h-1 mb-10" />
           <div className="slider-container">
             <Slider {...settings}>
               {destinationJson.map((destination) => (
@@ -133,7 +133,7 @@ const FeatureDestination = () => {
                           {destination.name}
                         </h3>
                         <p className="flex gap-1 items-center">
-                          <Star width={20} fill="red" />
+                          <Star width={20} fill="lightgreen" />
                           {destination.star}
                         </p>
                         <p className="text-gray-600 mb-4 mt-2">
@@ -141,7 +141,7 @@ const FeatureDestination = () => {
                           {destination.name}
                         </p>
                         <div className="flex gap-4">
-                          <button className="px-3 py-2 bg-red-500 rounded-md hover:bg-red-600 text-white">
+                          <button className="px-3 py-2 bg-green-600 rounded-md hover:bg-green-700 text-white">
                             ${destination.price}
                           </button>
                           <button className="px-3 py-2 bg-black opacity-80 rounded-md text-white">

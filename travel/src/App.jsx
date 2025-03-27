@@ -70,13 +70,14 @@ const App = () => {
         color="white"
         smooth
         style={{
-          backgroundColor: "#EF4444",
+          backgroundColor: "#04a847",
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
         }}
       />
     </>
+    
   );
 };
 

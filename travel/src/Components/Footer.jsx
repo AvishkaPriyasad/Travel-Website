@@ -13,17 +13,17 @@ const Footer = () => {
       <div className='max-w-7xl mx-auto px-4'>
         <div className='grid grid-cols-2 md:grid-cols-4 gap-8'>
             <div>
-                <h1 className='font-bold text-4xl mb-4'><span className='text-red-500'>Travel</span>Mate</h1>
+                <h1 className='font-bold text-4xl mb-4'><span className='text-green-600'>Travel</span>Mate</h1>
                 <p className='text-sm'>We're dedicated to making your travel dreams come true with expertly curated tours and unforgettable experiences.</p>
             </div>
             <div className='flex flex-col lg:items-center'>
                 <h3 className='text-lg font-semibold mb-4'>Quick Links</h3>
                 <ul className='space-y-2 text-sm'>
-                    <li><a href="/" className='hover:underline'>Home</a></li>
-                    <li><a href="/tours" className='hover:underline'>Destinations</a></li>
+                    <li><a href="/" className='hover:text-green-600'>Home</a></li>
+                    <li><a href="/tours" className='hover:text-green-600'>Destinations</a></li>
                     {/* <li><a href="/tours" className='hover:underline'>Tours</a></li> */}
-                    <li><a href="/about" className='hover:underline'>About Us</a></li>
-                    <li><a href="/contact" className='hover:underline'>Contact</a></li>
+                    <li><a href="/about" className='hover:text-green-600'>About Us</a></li>
+                    <li><a href="/contact" className='hover:text-green-600'>Contact</a></li>
                 </ul>
             </div>
             <div>
@@ -37,9 +37,9 @@ const Footer = () => {
             <div>
                 <h3 className='text-lg font-semibold mb-4'>Follow Us</h3>
                 <div className='flex space-x-4 '>
-                    <FaFacebook className='hover:text-red-500'/>
-                    <FaInstagram className='hover:text-red-500'/>
-                    <FaTwitter className='hover:text-red-500'/>
+                    <FaFacebook className='hover:text-green-600'/>
+                    <FaInstagram className='hover:text-green-600'/>
+                    <FaTwitter className='hover:text-green-600'/>
                 </div>
             </div>
         </div>

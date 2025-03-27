@@ -12,7 +12,7 @@ const ResponsiveMenu = ({ showMenu, setShowMenu }) => {
                     <FaUserCircle size={50} />
                     <div>
                         <h1>User Profile</h1>
-                        <h1 className='text-sm text-slate-500 font-bold'>Sign In</h1>
+                        <h1 className='text-sm text-green-600 font-bold'>Sign In</h1>
                     </div>
                 </div>
                 <nav className='mt-12'>
@@ -22,7 +22,7 @@ const ResponsiveMenu = ({ showMenu, setShowMenu }) => {
                         <Link to='/tours'><li onClick={()=>setShowMenu(false)}>Tours</li></Link>
                         <Link to='/gallery'><li onClick={()=>setShowMenu(false)}>Gallery</li></Link>
                         <Link to='/contact'><li onClick={()=>setShowMenu(false)}>Contact</li></Link>
-                        <Link to='#'><button onClick={()=>setShowMenu(false)} className='bg-red-500 text-white px-4 py-1 rounded-md font-semibold'>Book Now</button></Link>
+                        <Link to='#'><button onClick={()=>setShowMenu(false)} className='bg-green-600 hover:bg-green-700 text-white px-4 py-1 rounded-md font-semibold'>Book Now</button></Link>
                     </ul>
                 </nav>
             </div>

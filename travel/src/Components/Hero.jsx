@@ -38,7 +38,7 @@ const Hero = () => {
                     Explore breathtaking destinations, create unforgettable
                     memories and embark on the journey of a lifetime.
                   </p>
-                  <button className="bg-red-500 px-3 py-2 text-white rounded-md font-semibold">
+                  <button className="bg-green-600 hover:bg-green-700 px-3 py-2 text-white rounded-md font-semibold">
                     Start Exploring
                   </button>
                 </div>
@@ -66,7 +66,7 @@ const Hero = () => {
                     Explore breathtaking destinations, create unforgettable
                     memories and embark on the journey of a lifetime.
                   </p>
-                  <button className="bg-red-500 px-3 py-2 text-white rounded-md font-semibold">
+                  <button className="bg-green-600 hover:bg-green-700 px-3 py-2 text-white rounded-md font-semibold">
                     Start Exploring
                   </button>
                 </div>
@@ -94,7 +94,7 @@ const Hero = () => {
                     Explore breathtaking destinations, create unforgettable
                     memories and embark on the journey of a lifetime.
                   </p>
-                  <button className="bg-red-500 px-3 py-2 hover:bg-red-800 text-white rounded-md font-semibold">
+                  <button className="bg-green-600 px-3 py-2 hover:bg-green-700 text-white rounded-md font-semibold">
                     Start Exploring
                   </button>
                 </div>
@@ -171,7 +171,7 @@ const Hero = () => {
             <label htmlFor="" className="text-white">
               Transmissioin
             </label>
-            <button className="bg-red-500 transition-all ease-in text-white hover:bg-red-600 hover:text-white px-3 h-8 py-1 rounded-md">
+            <button className="bg-green-600 transition-all ease-in text-white hover:bg-green-700 hover:text-white px-3 h-8 py-1 rounded-md">
               Book Now
             </button>
           </div>

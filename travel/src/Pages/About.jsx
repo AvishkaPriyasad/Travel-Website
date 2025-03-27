@@ -17,7 +17,7 @@ const About = () => {
                 alt="travel"
                 className="rounded-lg"
               />
-              <div className="absolute bottom-[45%] right-0 p-4 bg-red-500 text-white font-bold md:text-4xl rounded-lg">
+              <div className="absolute bottom-[45%] right-0 p-4 bg-green-600 text-white font-bold md:text-4xl rounded-lg">
                 HOW WE ARE BEST <br /> FOR TRAVEL!
               </div>
             </div>
