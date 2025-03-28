@@ -3,7 +3,7 @@ import banner from '../assets/banner.jpg'
 
 const Banner = () => {
   return (
-    <div className='h-[500px] relative flex items-center' 
+    <div className='h-[500px] relative flex items-center z-0' 
     style={{
         backgroundImage: `url(${banner})`, 
         backgroundSize:'cover', 

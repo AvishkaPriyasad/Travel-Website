@@ -103,7 +103,7 @@ const Hero = () => {
           </div>
         </div>
       </Slider>
-      <div className="bg-white border border-gray-300 shadow-lg rounded-md z-10 left-[8%] absolute hidden lg:block bottom-[-20%] items-center justify-center w-[1050px] mx-auto p-4">
+      <div className="bg-white border border-gray-300 shadow-lg rounded-md z-[99] left-1/2 transform -translate-x-1/2 absolute hidden lg:block bottom-[-20%] w-[90%] max-w-[1050px] p-4">
         <div className="flex gap-3 items-center">
           <div className="grid gap-5 grid-cols-4 flex-grow">
             <div className="flex flex-col gap-2">

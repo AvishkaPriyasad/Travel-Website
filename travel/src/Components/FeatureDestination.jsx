@@ -26,15 +26,15 @@ const FeatureDestination = () => {
     infinite: true,
     speed: 500,
     slidesToShow: 4,
-    slidesToScroll: 3,
+    slidesToScroll: 2,
     nextArrow: <SlickArrowLeft />,
     prevArrow: <SlickArrowRight />,
     responsive: [
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 4,
-          slidesToScroll: 3,
+          slidesToShow: 3,
+          slidesToScroll: 1,
           infinite: true,
           dots: true,
         },
@@ -108,13 +108,13 @@ const FeatureDestination = () => {
             Featured Destinations
           </h2>
           <hr className="text-green-600 w-[200px] bg-green-600 mx-auto h-1 mb-10" />
-          <div className="slider-container">
+          <div className="slider-container overflow-hidden">
             <Slider {...settings}>
               {destinationJson.map((destination) => (
                 <div>
                   <div
                     key={destination.name}
-                    className="overflow-hidden border shadow-lg shadow-gray-500 rounded-lg mb-5 mr-5"
+                    className="overflow-hidden border shadow-lg shadow-gray-500 rounded-lg mb-5 mr-2"
                   >
                     <div className="">
                       <img
@@ -141,10 +141,10 @@ const FeatureDestination = () => {
                           {destination.name}
                         </p>
                         <div className="flex gap-4">
-                          <button className="px-3 py-2 bg-green-600 rounded-md hover:bg-green-700 text-white">
+                          <button className="px-3 py-2 bg-green-600 rounded-md hover:bg-green-700 text-white transition-colors duration-200">
                             ${destination.price}
                           </button>
-                          <button className="px-3 py-2 bg-black opacity-80 rounded-md text-white">
+                          <button className="px-3 py-2 bg-black/80 rounded-md text-white hover:bg-black transition-colors duration-200">
                             More Details
                           </button>
                         </div>

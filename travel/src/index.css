@@ -1,1 +1,13 @@
 @import "tailwindcss";
+/* Prevent horizontal overflow */
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  
+  /* Ensure all containers are constrained */
+  .container, .max-w-7xl {
+    width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }

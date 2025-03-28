@@ -9,9 +9,9 @@ const Navbar = () => {
         setShowMenu(!showMenu)
     }
     return (
-        <header className='sticky mx-auto top-0 transition-all py-6 bg-transparent z-10'>
-            <div className='bg-black opacity-75 transparent/75 px-4 fixed w-full z-50 top-0 py-2'>
-                <div className='max-w-7xl mx-auto py-2 px-5 flex bg-transparent justify-between items-center'>
+        <header className='fixed w-full top-0 z-[100]'>
+            <div className='bg-black/80 backdrop-blur-sm px-4 py-2'>
+                <div className='max-w-7xl mx-auto py-2 px-5 flex justify-between items-center'>
                     <Link to='/'>
                     <h1 className='text-2xl text-green-600 font-bold'>Travel<span className='text-white font-bold'>Mate</span></h1>
                     </Link>
